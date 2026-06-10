@@ -11,7 +11,7 @@
     <groupId>com.neaz</groupId>
     <artifactId>log-summarizer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <name>log-summarizer</name>
     <description>log-summarizer</description>
     <url/>
