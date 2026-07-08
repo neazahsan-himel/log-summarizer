@@ -46,6 +46,9 @@ public class OllamaClient implements AiClient {
                 .model(ollama.getModel())
                 .prompt(prompt)
                 .stream(false)
+                .options(OllamaRequest.Options.builder()
+                        .numCtx(ollama.getNumCtx())
+                        .build())
                 .build();
 
         log.debug("Sending request to Ollama — model={}", ollama.getModel());

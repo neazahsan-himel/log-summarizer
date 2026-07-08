@@ -17,5 +17,6 @@ public class AiProviderConfig {
         private String baseUrl;
         private String model;
         private int timeoutSeconds = 30;
+        private int numCtx = 4096;
     }
 }
